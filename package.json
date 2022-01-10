@@ -7,6 +7,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -15,6 +16,7 @@
     "express-jwt": "^6.1.0",
     "mongoose": "^6.1.5",
     "morgan": "^1.10.0",
+    "react-router-dom": "^6.2.1",
     "salt": "^0.5.5"
   },
   "devDependencies": {
