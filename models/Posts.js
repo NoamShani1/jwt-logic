@@ -28,7 +28,7 @@ commentsCount:{
 
 createdAt: {
     type: Date,
-    default: Date.now,
+    default: Math.floor(Date.now() /1000),
   },
 
 
